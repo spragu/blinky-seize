@@ -1,6 +1,6 @@
 time = __import__(time)
 flashes = 50
-flashDelay = 75
+flashDelay = 200
 led = Pin("LED", Pin.OUT)
 
 while flashes > 0:
