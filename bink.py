@@ -1,4 +1,4 @@
-import time
+time = __import__(time)
 flashes = 50
 flashDelay = 25
 led = Pin("LED", Pin.OUT)
